@@ -15,8 +15,8 @@ BroadcastView.propTypes = {
               If empty string provided, will stop publishing.
    */
   ...View.propTypes,
-  cameraPosition: React.PropTypes.string,
-  publish: React.PropTypes.string
+  cameraPosition: PropTypes.string,
+  publish: PropTypes.string
 }
 
 var RNBroadcastView = requireNativeComponent('RNBroadcastView', BroadcastView)
